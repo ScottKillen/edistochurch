@@ -1,0 +1,148 @@
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 22px;
+        line-height: 1.25;
+        padding-top: 20px;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+
+      /* Fonts */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Droid Serif', Georgia, Times, serif;
+      }
+       
+      h1 { 
+        text-shadow: 1px 1px 1px #777;
+      }
+
+      p, div {
+        font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+      }
+
+      .jumbotron .location {
+        font-family: 'Bilbo', cursive;
+        font-size: 60px;
+        line-height: 1.25;
+      }
+
+      .footer {
+        font-size: x-small;
+        line-height: 1.25;
+      }
+
+      /* background */
+      body { 
+        background: url(img/white_sand.png) repeat 0 0;
+        background-attachment: fixed;
+      }
+
+      /* Footprints */
+      #footprints {
+        position: fixed;
+        bottom:0;
+        right: 0;
+        background: url(img/footprints.png) repeat 0 0;
+        height: 477px;
+        width: 370px;
+        z-index:-1;
+      }
+
+      /* colors */
+      body {
+        color: #0d0e0d;
+      }
+
+      .jumbotron .church-of {
+        color: #90acc2;
+      }
+
+      .jumbotron .location {
+        color: #57330f;
+      }
+      /* logo */
+      #masthead {
+        background: url(img/cross.png) no-repeat 0 0;
+        padding-left: 70px;
+        padding-top: 20px;
+      }
+
+      .jumbotron .location {
+        margin: 0;
+        margin-top: -30px;
+        transform:rotate(-7deg);
+        -ms-transform:rotate(-7deg); /* IE 9 */
+        -webkit-transform:rotate(-7deg); /* Safari and Chrome */
+      }
+
+      /* Styles */
+      td {
+        padding-right: 10px;
+      }
+
+      #map, #contact {
+        text-align: center;
+        margin-top:20px;
+      }
